@@ -1,0 +1,14 @@
+#Program to accept the users first and last name and print in the Reverse order
+
+#First name input from output device
+firstName=input("Enter the First Name ")
+
+#Last Name
+lastName=input("Last Name ")
+
+#Display the Full Name 
+name=firstName+" "+lastName
+print("Name is "+name)
+
+#Displaying the Name in the reverse order
+print("Name is in the reverse order {var1} {var2} ".format(var1=lastName,var2=firstName))   
